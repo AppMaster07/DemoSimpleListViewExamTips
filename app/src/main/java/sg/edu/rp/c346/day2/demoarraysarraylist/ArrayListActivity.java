@@ -30,7 +30,7 @@ public class ArrayListActivity extends AppCompatActivity {
 
         fruits.remove("apple");
 
-        fruits.set(3, "dragon fruit");
+        fruits.set(fruits.size()-1, "dragon fruit");
 
         System.out.println("Size is : " + fruits.size());
 
